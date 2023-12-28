@@ -91,7 +91,7 @@ main{
     filter: grayscale(100%) brightness(150%);
 }
 
-textarea {
+#input-search {
     resize: none;
     border: none;
     outline: none; 
@@ -110,19 +110,7 @@ textarea {
     margin-top: 20px;
 }
 
-.boton{
-    border: none;
-    border-radius: 4px;
-    margin-top: 11px;
-    margin-right: 4px;
-    margin-bottom: 11px;
-    margin-left: 4px;
-
-    padding-top: 0px;
-    padding-right: 16px;
-    padding-bottom: 0px;
-    padding-left: 16px;
-
+#search, #lucky {
     height: 36px;
 
     text-align: center;
@@ -134,7 +122,21 @@ textarea {
     font-size: 14px;
 }
 
-.boton:hover{
+.btn-search{
+    border: none;
+    border-radius: 4px;
+    margin-top: 11px;
+    margin-right: 4px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+
+    padding-top: 0px;
+    padding-right: 16px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+}
+
+.btn-search:hover{
     border: 1px solid #bdb6b6;
 }
 
